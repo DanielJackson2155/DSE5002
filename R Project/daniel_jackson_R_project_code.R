@@ -150,7 +150,7 @@ us_avg_salary_by_exp = us_avg_salary_by_exp %>%
   rename(salary = "us_data_scientists_df$salary_in_usd")
 
 mean(us_avg_salary_by_exp[,2])
-# Average of those two experiences is $145,133
+# Average of those two experiences is $145,133!
 
 # Let's look at average salary by remote, hybrid, full time in office
 us_avg_salary_by_remote = aggregate(us_data_scientists_df$salary_in_usd ~
